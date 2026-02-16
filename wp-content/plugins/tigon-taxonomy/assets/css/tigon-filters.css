@@ -1,1 +1,130 @@
-/* Tigon Filters — Implemented in Phase 10 */
+/**
+ * Tigon Filters — Manufacturer/Model accordion widget styles.
+ *
+ * @package Tigon_Taxonomy
+ */
+
+/* Widget container */
+.tigon-manufacturer-filter-widget {
+    font-family: inherit;
+}
+
+/* Accordion container */
+.tigon-filter-accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Individual accordion item */
+.tigon-accordion-item {
+    border-bottom: 1px solid #eee;
+}
+
+.tigon-accordion-item:last-child {
+    border-bottom: none;
+}
+
+/* Accordion header (manufacturer row) */
+.tigon-accordion-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    user-select: none;
+}
+
+.tigon-accordion-header:hover {
+    background: #f0f0f0;
+}
+
+.tigon-accordion-header:focus {
+    outline: 2px solid #2271b1;
+    outline-offset: -2px;
+}
+
+/* Active manufacturer */
+.tigon-accordion-active > .tigon-accordion-header {
+    background: #e8f0fe;
+    font-weight: 600;
+}
+
+/* Manufacturer link */
+.tigon-manufacturer-link {
+    flex: 1;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.tigon-manufacturer-link:hover {
+    color: #2271b1;
+    text-decoration: underline;
+}
+
+/* Product count badge */
+.tigon-count {
+    color: #757575;
+    font-size: 12px;
+    margin-left: 6px;
+    white-space: nowrap;
+}
+
+/* Toggle arrow */
+.tigon-accordion-toggle {
+    margin-left: 8px;
+    font-size: 10px;
+    color: #757575;
+    transition: transform 0.2s ease;
+    line-height: 1;
+}
+
+.tigon-accordion-active .tigon-accordion-toggle {
+    transform: rotate(180deg);
+}
+
+/* Model list panel */
+.tigon-accordion-panel {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.tigon-accordion-panel li {
+    padding: 6px 14px 6px 28px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.tigon-accordion-panel li:first-child {
+    border-top: 1px solid #eee;
+}
+
+.tigon-accordion-panel li a {
+    flex: 1;
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.tigon-accordion-panel li a:hover {
+    color: #2271b1;
+    text-decoration: underline;
+}
+
+/* Active model highlight */
+.tigon-accordion-panel li.tigon-model-active {
+    background: #f0f6ff;
+}
+
+.tigon-accordion-panel li.tigon-model-active a {
+    color: #2271b1;
+    font-weight: 600;
+}

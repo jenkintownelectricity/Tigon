@@ -1,0 +1,16 @@
+{
+  "checkpoint": "010-filter-widget",
+  "phase": 10,
+  "description": "Filter Widget",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:22:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-widgets.php — Tigon_Manufacturer_Filter_Widget",
+    "assets/css/tigon-filters.css — full accordion styles",
+    "assets/js/tigon-filters.js — accordion toggle with keyboard accessibility"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Accordion-style sidebar widget: manufacturers expand to show models. Active category highlighted. Product counts shown. Keyboard accessible (Enter/Space). Admin form with title and hide-empty options."
+}
