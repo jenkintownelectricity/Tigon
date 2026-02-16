@@ -1,0 +1,17 @@
+{
+  "checkpoint": "009-breadcrumbs",
+  "phase": 9,
+  "description": "Breadcrumb Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:20:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-breadcrumbs.php — full implementation",
+    "Product breadcrumb: Home > Manufacturer > Model > Product Name",
+    "Category archive breadcrumb: Home > [Manufacturer >] Category Name",
+    "Uses Tigon_Primary_Cat helpers for category resolution"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Hooks woocommerce_get_breadcrumb at priority 20. Handles both product singles and category archives. Walks ancestor chain for multi-level hierarchies."
+}
