@@ -1,0 +1,23 @@
+{
+  "checkpoint": "004-attributes-registered",
+  "phase": 4,
+  "description": "Attribute Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:08:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-attributes.php",
+    "Attribute: pa_manufacturer (13 terms)",
+    "Attribute: pa_seating (4 terms, variations: yes)",
+    "Attribute: pa_voltage (3 terms)",
+    "Attribute: pa_vehicle-type (7 terms)",
+    "Attribute: pa_power-type (4 terms, variations: yes)",
+    "Attribute: pa_drive-type (2 terms)",
+    "Attribute: pa_color (12 terms, variations: yes)",
+    "Attribute: pa_condition (3 terms)",
+    "Attribute: pa_features (8 terms)"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "9 global attributes with 56 total terms. Uses wc_create_attribute() and wp_insert_term(). Idempotent — checks for existing attributes/terms before creating."
+}
