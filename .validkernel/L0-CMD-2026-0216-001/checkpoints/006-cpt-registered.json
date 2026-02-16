@@ -1,0 +1,28 @@
+{
+  "checkpoint_id": "006-cpt-registered",
+  "phase": 6,
+  "phase_name": "CPT Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:22:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-cpt.php (fully implemented)"
+  ],
+  "cpt_config": {
+    "post_type": "tigon_manufacturer",
+    "public": true,
+    "has_archive": true,
+    "rewrite_slug": "manufacturers",
+    "with_front": false,
+    "menu_icon": "dashicons-store",
+    "supports": ["title", "editor", "thumbnail", "excerpt", "custom-fields"],
+    "show_in_rest": true,
+    "meta_fields": [
+      "_tigon_brand_logo (image URL)",
+      "_tigon_brand_url (website URL)",
+      "_tigon_brand_tagline (text)",
+      "_tigon_wc_category_id (linked product_cat term ID)"
+    ]
+  },
+  "items_skipped": [],
+  "notes": "CPT registered with admin meta box, nonce verification, and proper sanitization. Archive at /manufacturers/."
+}

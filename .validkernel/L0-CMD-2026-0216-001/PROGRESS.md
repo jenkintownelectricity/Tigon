@@ -15,7 +15,7 @@
 | 3 | Category Registration | COMPLETE | 003-categories-registered.json |
 | 4 | Attribute Registration | COMPLETE | 004-attributes-registered.json |
 | 5 | Tag Registration | COMPLETE | 005-tags-registered.json |
-| 6 | CPT Registration | PENDING | 006-cpt-registered.json |
+| 6 | CPT Registration | COMPLETE | 006-cpt-registered.json |
 | 7 | Location Taxonomy | PENDING | 007-location-taxonomy.json |
 | 8 | Primary Category Override | PENDING | 008-primary-cat-override.json |
 | 9 | Breadcrumb Override | PENDING | 009-breadcrumbs.json |
