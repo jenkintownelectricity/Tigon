@@ -1,0 +1,20 @@
+{
+  "checkpoint": "008-primary-cat-override",
+  "phase": 8,
+  "description": "Primary Category Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:40:00Z",
+  "items_created": [
+    "includes/class-tigon-primary-cat.php (full implementation)"
+  ],
+  "features": [
+    "get_primary_category() — returns deepest child (MODEL) category",
+    "determine_primary_category() — finds deepest child from assigned terms",
+    "filter_category_list() — reorders display with MODEL first",
+    "auto_assign_parent_category() — auto-inherits manufacturer parent when model assigned",
+    "update_primary_category_meta() — stores _tigon_primary_category meta on save",
+    "get_manufacturer_category() — utility to get parent manufacturer from primary"
+  ],
+  "items_skipped": [],
+  "notes": "MODEL (deepest child) is primary. Parent manufacturer auto-assigned. Primary stored in _tigon_primary_category post meta for reliable retrieval."
+}
