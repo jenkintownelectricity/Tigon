@@ -1,0 +1,21 @@
+{
+  "checkpoint": "008-primary-cat-override",
+  "phase": 8,
+  "description": "Primary Category Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:18:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-primary-cat.php — full implementation",
+    "get_primary_category() — finds deepest child (MODEL) from assigned categories",
+    "get_manufacturer_category() — finds top-level parent (MANUFACTURER)",
+    "reorder_category_ids filter — MODEL first in category ID array",
+    "primary_product_cat_for_permalink — MODEL in URL permalinks",
+    "auto_inherit_parent — auto-adds parent manufacturer when model assigned",
+    "enforce_location_requirement — warns on save if no location",
+    "display_location_notice — admin notice for missing location"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Critical business requirement: MODEL is primary display category. Manufacturer auto-inherited. Location enforced with admin warning (not blocking, per prudence — owner can configure stricter enforcement)."
+}
