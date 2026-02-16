@@ -1,0 +1,29 @@
+{
+  "checkpoint": "011-templates",
+  "phase": 11,
+  "description": "Templates",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:52:00Z",
+  "items_created": [
+    "templates/single-tigon_manufacturer.php (full implementation)",
+    "templates/archive-tigon_manufacturer.php (full implementation)"
+  ],
+  "template_features": {
+    "single": [
+      "Brand logo display (meta or featured image)",
+      "Brand tagline and website link",
+      "Full content editor output",
+      "Linked WC category model grid",
+      "Featured inventory product query (8 products)"
+    ],
+    "archive": [
+      "Manufacturers grid layout",
+      "Brand logo, tagline, excerpt per card",
+      "Model count from linked WC category",
+      "Pagination support",
+      "View Models link per manufacturer"
+    ]
+  },
+  "items_skipped": [],
+  "notes": "Templates use get_header/get_footer for theme compatibility. WooCommerce product loop uses wc_get_template_part for consistent styling."
+}
