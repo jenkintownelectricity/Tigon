@@ -1,0 +1,22 @@
+{
+  "checkpoint": "006-cpt-registered",
+  "phase": 6,
+  "description": "CPT Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:12:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-cpt.php",
+    "CPT: tigon_manufacturer",
+    "Meta: _tigon_brand_logo (image attachment ID)",
+    "Meta: _tigon_brand_url (URL)",
+    "Meta: _tigon_brand_tagline (text)",
+    "Meta: _tigon_wc_category_id (term ID link to product_cat)",
+    "Rewrite: /manufacturers/ archive",
+    "Menu icon: dashicons-store",
+    "Template loader via template_include filter"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "CPT registered with full labels, REST API support, meta box with nonce verification and sanitized save."
+}
