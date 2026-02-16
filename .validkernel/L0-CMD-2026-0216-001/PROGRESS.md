@@ -10,8 +10,8 @@
 
 | # | Phase | Status | Checkpoint |
 |---|-------|--------|------------|
-| 1 | Repo Initialization | IN PROGRESS | 001-repo-init.json |
-| 2 | Plugin Scaffold | PENDING | 002-plugin-scaffold.json |
+| 1 | Repo Initialization | COMPLETE | 001-repo-init.json |
+| 2 | Plugin Scaffold | COMPLETE | 002-plugin-scaffold.json |
 | 3 | Category Registration | PENDING | 003-categories-registered.json |
 | 4 | Attribute Registration | PENDING | 004-attributes-registered.json |
 | 5 | Tag Registration | PENDING | 005-tags-registered.json |
