@@ -13,7 +13,7 @@
 | 1 | Repo Initialization | COMPLETE | 001-repo-init.json |
 | 2 | Plugin Scaffold | COMPLETE | 002-plugin-scaffold.json |
 | 3 | Category Registration | COMPLETE | 003-categories-registered.json |
-| 4 | Attribute Registration | PENDING | 004-attributes-registered.json |
+| 4 | Attribute Registration | COMPLETE | 004-attributes-registered.json |
 | 5 | Tag Registration | PENDING | 005-tags-registered.json |
 | 6 | CPT Registration | PENDING | 006-cpt-registered.json |
 | 7 | Location Taxonomy | PENDING | 007-location-taxonomy.json |
