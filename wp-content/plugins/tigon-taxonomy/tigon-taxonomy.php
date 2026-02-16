@@ -84,6 +84,11 @@ final class Tigon_Taxonomy {
         // Initialize components after WooCommerce is loaded.
         add_action( 'woocommerce_init', array( $this, 'init_components' ) );
 
+        // Require location on product publish (admin only).
+        if ( is_admin() ) {
+            Tigon_Location::require_location_on_publish();
+        }
+
         // Register widget.
         add_action( 'widgets_init', array( 'Tigon_Widgets', 'register' ) );
 
