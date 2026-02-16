@@ -1,0 +1,27 @@
+{
+  "checkpoint": "002-plugin-scaffold",
+  "phase": 2,
+  "description": "Plugin Scaffold",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:00:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/tigon-taxonomy.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-categories.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-attributes.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-tags.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-cpt.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-location.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-primary-cat.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-breadcrumbs.php",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-widgets.php",
+    "wp-content/plugins/tigon-taxonomy/templates/single-tigon_manufacturer.php",
+    "wp-content/plugins/tigon-taxonomy/templates/archive-tigon_manufacturer.php",
+    "wp-content/plugins/tigon-taxonomy/assets/css/tigon-filters.css",
+    "wp-content/plugins/tigon-taxonomy/assets/js/tigon-filters.js",
+    "wp-content/plugins/tigon-taxonomy/data/taxonomy-seed.json"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Main plugin file with activation/deactivation hooks, autoloader, and asset enqueue. All class files stubbed."
+}
