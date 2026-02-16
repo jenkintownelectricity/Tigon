@@ -1,0 +1,24 @@
+{
+  "checkpoint": "004-attributes-registered",
+  "phase": 4,
+  "description": "Attribute Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:28:00Z",
+  "items_created": [
+    "includes/class-tigon-attributes.php (fully implemented in Phase 2)"
+  ],
+  "attributes_registered": 9,
+  "attribute_list": [
+    "Manufacturer (pa_manufacturer) — 13 terms",
+    "Seating Capacity (pa_seating) — 4 terms, used for variations",
+    "Voltage (pa_voltage) — 3 terms",
+    "Vehicle Type (pa_vehicle-type) — 7 terms",
+    "Power Type (pa_power-type) — 4 terms, used for variations",
+    "Drive Type (pa_drive-type) — 2 terms",
+    "Color (pa_color) — 12 terms, used for variations",
+    "Condition (pa_condition) — 3 terms",
+    "Features (pa_features) — 8 terms"
+  ],
+  "items_skipped": [],
+  "notes": "All 9 global attributes from Section 3.2 registered via wc_create_attribute(). Idempotent — checks for existing before creating."
+}
