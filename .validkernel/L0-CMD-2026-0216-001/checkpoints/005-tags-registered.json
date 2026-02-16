@@ -1,0 +1,18 @@
+{
+  "checkpoint": "005-tags-registered",
+  "phase": 5,
+  "description": "Tag Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:10:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-tags.php",
+    "Location tags: Hatfield PA, Poconos PA, Ocean View NJ, National, Delivery Available",
+    "Promo/Status tags: Sale, Featured, Best Seller, New Arrival, Limited Stock, 0% Financing",
+    "Use Case tags: Golf Course, Neighborhood, Off-Road, Commercial, Utility, Resort, Campground",
+    "Compliance tags: Street Legal, DOT Approved, EPA Certified"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "21 total product tags across 4 groups. Idempotent seeding."
+}
