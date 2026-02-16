@@ -1,0 +1,23 @@
+{
+  "checkpoint_id": "010-filter-widget",
+  "phase": 10,
+  "phase_name": "Filter Widget",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:38:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-widgets.php (fully implemented)",
+    "wp-content/plugins/tigon-taxonomy/assets/css/tigon-filters.css (fully implemented)",
+    "wp-content/plugins/tigon-taxonomy/assets/js/tigon-filters.js (fully implemented)"
+  ],
+  "widget_features": [
+    "Accordion-style manufacturer list with expandable model sublists",
+    "Product count per manufacturer and per model",
+    "Active category highlighting (manufacturer and model)",
+    "Auto-expand when viewing a manufacturer or model category",
+    "jQuery slideToggle animation",
+    "Configurable title and hide-empty option in admin",
+    "Responsive styles for mobile"
+  ],
+  "items_skipped": [],
+  "notes": "Widget registered as Tigon_Manufacturer_Filter_Widget. CSS/JS enqueued only when widget is active or on shop/taxonomy pages."
+}
