@@ -1,0 +1,15 @@
+{
+  "checkpoint": "011-templates",
+  "phase": 11,
+  "description": "Templates",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:25:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "templates/single-tigon_manufacturer.php — single manufacturer profile page",
+    "templates/archive-tigon_manufacturer.php — manufacturer archive grid page"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Single template: brand logo, tagline, website link, content, model grid from linked WC category. Archive template: responsive card grid of all manufacturers with logos, taglines, model counts. Both overridable by theme."
+}
