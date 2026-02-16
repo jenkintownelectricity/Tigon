@@ -1,0 +1,14 @@
+{
+  "checkpoint_id": "009-breadcrumbs",
+  "phase": 9,
+  "phase_name": "Breadcrumb Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:33:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-breadcrumbs.php (fully implemented)"
+  ],
+  "breadcrumb_format": "Home > {Manufacturer} > {Model} > {Product Name}",
+  "hook_used": "woocommerce_get_breadcrumb (priority 20)",
+  "items_skipped": [],
+  "notes": "Breadcrumbs rebuilt using Tigon_Primary_Cat::get_manufacturer_category() and get_primary_category(). Only active on single product pages. Falls back gracefully if no model or manufacturer assigned."
+}

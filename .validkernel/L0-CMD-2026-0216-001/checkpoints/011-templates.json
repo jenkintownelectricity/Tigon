@@ -1,0 +1,35 @@
+{
+  "checkpoint_id": "011-templates",
+  "phase": 11,
+  "phase_name": "Templates",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:42:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/templates/single-tigon_manufacturer.php",
+    "wp-content/plugins/tigon-taxonomy/templates/archive-tigon_manufacturer.php",
+    "tigon_taxonomy_template_include() function in main plugin file"
+  ],
+  "template_features": {
+    "single": [
+      "Brand logo/featured image display",
+      "Brand tagline",
+      "Content editor output",
+      "Official website link",
+      "Linked WC category model grid with product counts",
+      "View All Products CTA button"
+    ],
+    "archive": [
+      "Grid layout of manufacturer cards",
+      "Logo/featured image per card",
+      "Tagline and excerpt display",
+      "Model count from linked WC category",
+      "Pagination support"
+    ],
+    "template_loading": [
+      "Theme templates take priority over plugin templates",
+      "Loaded via template_include filter"
+    ]
+  },
+  "items_skipped": [],
+  "notes": "Templates are theme-overridable. Copy to theme root to customize."
+}

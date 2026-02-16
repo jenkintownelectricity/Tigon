@@ -1,0 +1,21 @@
+{
+  "checkpoint_id": "008-primary-cat-override",
+  "phase": 8,
+  "phase_name": "Primary Category Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:30:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-primary-cat.php (fully implemented)"
+  ],
+  "features_implemented": [
+    "get_primary_category() — returns deepest child (MODEL) as primary display category",
+    "get_manufacturer_category() — walks up to root parent category",
+    "auto_inherit_parent() — auto-assigns parent manufacturer when model category set via set_object_terms hook",
+    "ensure_parent_inherited() — ensures ancestors always in category_ids via woocommerce_product_get_category_ids filter",
+    "prevent_publish_without_location() — reverts to draft if no tigon_location term assigned",
+    "set_primary_category_meta() — stores _tigon_primary_category meta on save",
+    "admin_notices() — displays error when location requirement blocks publish"
+  ],
+  "items_skipped": [],
+  "notes": "Critical business requirement implemented. MODEL is primary via deepest-child algorithm. Manufacturer auto-inherited. Location taxonomy enforced as required."
+}
