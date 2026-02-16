@@ -1,0 +1,17 @@
+{
+  "checkpoint": "009-breadcrumbs",
+  "phase": 9,
+  "description": "Breadcrumb Override",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:44:00Z",
+  "items_created": [
+    "includes/class-tigon-breadcrumbs.php (full implementation)"
+  ],
+  "breadcrumb_patterns": {
+    "single_product": "Home > Manufacturer > Model > Product Name",
+    "model_archive": "Home > Manufacturer > Model",
+    "manufacturer_archive": "Home > Manufacturer"
+  },
+  "items_skipped": [],
+  "notes": "Hooks woocommerce_get_breadcrumb at priority 20. Uses Tigon_Primary_Cat helpers to determine manufacturer and model."
+}
