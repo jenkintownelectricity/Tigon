@@ -18,7 +18,7 @@
 | 6 | CPT Registration | COMPLETE | 006-cpt-registered.json |
 | 7 | Location Taxonomy | COMPLETE | 007-location-taxonomy.json |
 | 8 | Primary Category Override | COMPLETE | 008-primary-cat-override.json |
-| 9 | Breadcrumb Override | PENDING | 009-breadcrumbs.json |
+| 9 | Breadcrumb Override | COMPLETE | 009-breadcrumbs.json |
 | 10 | Filter Widget | PENDING | 010-filter-widget.json |
 | 11 | Templates | PENDING | 011-templates.json |
 | 12 | Final Verification | PENDING | 012-final-verification.json |
