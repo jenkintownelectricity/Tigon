@@ -1,4 +1,216 @@
 {
   "version": "1.0.0",
-  "note": "Populated in Phase 3."
+  "manufacturers": [
+    {
+      "name": "Evolution®",
+      "slug": "evolution",
+      "description": "Evolution Electric Vehicles — premium electric golf carts and LSVs.",
+      "models": [
+        { "name": "Forester 4 Plus", "slug": "forester-4-plus" },
+        { "name": "Forester 6 Plus", "slug": "forester-6-plus" },
+        { "name": "Classic 4 Plus", "slug": "classic-4-plus" },
+        { "name": "Classic 4 Pro", "slug": "classic-4-pro" },
+        { "name": "Carrier 6 Plus", "slug": "carrier-6-plus" },
+        { "name": "D3", "slug": "d3" },
+        { "name": "D5 Ranger 4", "slug": "d5-ranger-4" },
+        { "name": "D5 Maverick 4", "slug": "d5-maverick-4" },
+        { "name": "Turfman 800", "slug": "turfman-800" },
+        { "name": "Turfman 1000", "slug": "turfman-1000" }
+      ]
+    },
+    {
+      "name": "ICON®",
+      "slug": "icon",
+      "description": "ICON Electric Vehicles — versatile electric golf carts.",
+      "models": [
+        { "name": "i20", "slug": "i20" },
+        { "name": "i40", "slug": "i40" },
+        { "name": "i40L", "slug": "i40l" },
+        { "name": "i60", "slug": "i60" },
+        { "name": "i60L", "slug": "i60l" }
+      ]
+    },
+    {
+      "name": "EZ-GO®",
+      "slug": "ez-go",
+      "description": "EZ-GO — trusted name in golf carts and personal transportation vehicles.",
+      "models": [
+        { "name": "Liberty", "slug": "liberty" },
+        { "name": "Freedom", "slug": "freedom" },
+        { "name": "Express S4", "slug": "express-s4" },
+        { "name": "Express S6", "slug": "express-s6" },
+        { "name": "Valor", "slug": "valor" },
+        { "name": "Flex", "slug": "flex" }
+      ]
+    },
+    {
+      "name": "Club Car®",
+      "slug": "club-car",
+      "description": "Club Car — industry-leading golf and utility vehicles.",
+      "models": [
+        { "name": "Onward", "slug": "onward" },
+        { "name": "Precedent", "slug": "precedent" },
+        { "name": "Villager", "slug": "villager" }
+      ]
+    },
+    {
+      "name": "Yamaha®",
+      "slug": "yamaha",
+      "description": "Yamaha Golf Cars — reliable performance and innovation.",
+      "models": [
+        { "name": "Drive2", "slug": "drive2" },
+        { "name": "UMAX Rally", "slug": "umax-rally" },
+        { "name": "Adventurer", "slug": "adventurer" }
+      ]
+    },
+    {
+      "name": "DENAGO® EV",
+      "slug": "denago",
+      "description": "DENAGO Electric Vehicles — modern electric transportation.",
+      "models": [
+        { "name": "Nomad", "slug": "nomad" },
+        { "name": "Gran Turismo", "slug": "gran-turismo" }
+      ]
+    },
+    {
+      "name": "Royal® EV",
+      "slug": "royal-ev",
+      "description": "Royal EV — premium electric vehicles.",
+      "models": [
+        { "name": "Royal EV Models", "slug": "royal-ev-models" }
+      ]
+    },
+    {
+      "name": "Swift® EV",
+      "slug": "swift-ev",
+      "description": "Swift EV — agile electric vehicles.",
+      "models": [
+        { "name": "Swift EV Models", "slug": "swift-ev-models" }
+      ]
+    },
+    {
+      "name": "EPIC® Carts",
+      "slug": "epic",
+      "description": "EPIC Carts — bold electric golf carts.",
+      "models": [
+        { "name": "E40", "slug": "e40" },
+        { "name": "E60", "slug": "e60" }
+      ]
+    },
+    {
+      "name": "STAR EV®",
+      "slug": "star-ev",
+      "description": "STAR EV — versatile electric vehicles for every need.",
+      "models": [
+        { "name": "Star EV Models", "slug": "star-ev-models" }
+      ]
+    },
+    {
+      "name": "Bintelli®",
+      "slug": "bintelli",
+      "description": "Bintelli — affordable electric vehicles and golf carts.",
+      "models": [
+        { "name": "Beyond", "slug": "beyond" },
+        { "name": "Nemesis", "slug": "nemesis" }
+      ]
+    },
+    {
+      "name": "Cushman®",
+      "slug": "cushman",
+      "description": "Cushman — commercial and utility vehicles.",
+      "models": [
+        { "name": "Hauler", "slug": "hauler" }
+      ]
+    },
+    {
+      "name": "TIGON®",
+      "slug": "tigon",
+      "description": "TIGON — custom-built golf carts by Tigon Golf Carts.",
+      "models": [
+        { "name": "TIGON Custom Builds", "slug": "tigon-custom" }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "Manufacturer",
+      "slug": "manufacturer",
+      "terms": [
+        "Evolution", "ICON", "EZ-GO", "Club Car", "Yamaha",
+        "DENAGO", "Royal EV", "Swift EV", "EPIC", "STAR EV",
+        "Bintelli", "Cushman", "TIGON"
+      ]
+    },
+    {
+      "name": "Seating Capacity",
+      "slug": "seating",
+      "terms": ["2 Seater", "4 Seater", "6 Seater", "8 Seater"]
+    },
+    {
+      "name": "Voltage",
+      "slug": "voltage",
+      "terms": ["36V", "48V", "72V"]
+    },
+    {
+      "name": "Vehicle Type",
+      "slug": "vehicle-type",
+      "terms": ["NEV", "LSV", "MSV", "PTV", "ZEV", "UTV", "Golf Cart"]
+    },
+    {
+      "name": "Power Type",
+      "slug": "power-type",
+      "terms": ["Electric", "Gas", "Lithium", "Lead Acid"]
+    },
+    {
+      "name": "Drive Type",
+      "slug": "drive-type",
+      "terms": ["2x4", "4x4"]
+    },
+    {
+      "name": "Color",
+      "slug": "color",
+      "terms": [
+        "Black", "White", "Red", "Blue", "Gray", "Green",
+        "Arctic Gray", "Mineral White", "Flamenco Red",
+        "Candy Apple Red", "Midnight Blue", "Army Green"
+      ]
+    },
+    {
+      "name": "Condition",
+      "slug": "condition",
+      "terms": ["New", "Used", "Certified Pre-Owned"]
+    },
+    {
+      "name": "Features",
+      "slug": "features",
+      "terms": [
+        "Street Legal", "Lifted", "Bluetooth", "Touchscreen",
+        "Apple CarPlay", "Android Auto", "LED Lights", "Rear Flip Seat"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "group": "Location",
+      "terms": ["Hatfield PA", "Poconos PA", "Ocean View NJ", "National", "Delivery Available"]
+    },
+    {
+      "group": "Promo/Status",
+      "terms": ["Sale", "Featured", "Best Seller", "New Arrival", "Limited Stock", "0% Financing"]
+    },
+    {
+      "group": "Use Case",
+      "terms": ["Golf Course", "Neighborhood", "Off-Road", "Commercial", "Utility", "Resort", "Campground"]
+    },
+    {
+      "group": "Compliance",
+      "terms": ["Street Legal", "DOT Approved", "EPA Certified"]
+    }
+  ],
+  "locations": [
+    { "name": "Hatfield PA", "slug": "hatfield-pa" },
+    { "name": "Poconos PA", "slug": "poconos-pa" },
+    { "name": "Ocean View NJ", "slug": "ocean-view-nj" },
+    { "name": "National", "slug": "national" }
+  ]
 }
