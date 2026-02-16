@@ -1,0 +1,27 @@
+{
+  "checkpoint": "006-cpt-registered",
+  "phase": 6,
+  "description": "CPT Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:33:00Z",
+  "items_created": [
+    "includes/class-tigon-cpt.php (full implementation)"
+  ],
+  "cpt_details": {
+    "post_type": "tigon_manufacturer",
+    "public": true,
+    "has_archive": true,
+    "archive_slug": "/manufacturers/",
+    "menu_icon": "dashicons-store",
+    "supports": ["title", "editor", "thumbnail", "excerpt", "custom-fields"],
+    "show_in_rest": true,
+    "meta_fields": [
+      "_tigon_brand_logo (integer — attachment ID)",
+      "_tigon_brand_url (string — URL)",
+      "_tigon_brand_tagline (string — text)",
+      "_tigon_wc_category_id (integer — term ID)"
+    ]
+  },
+  "items_skipped": [],
+  "notes": "Full CPT with meta boxes, nonce verification, and sanitized save handler. REST API enabled."
+}
