@@ -1,0 +1,19 @@
+{
+  "checkpoint": "007-location-taxonomy",
+  "phase": 7,
+  "description": "Location Taxonomy",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:15:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "includes/class-tigon-location.php",
+    "Taxonomy: tigon_location attached to product",
+    "Terms: hatfield-pa, poconos-pa, ocean-view-nj, national",
+    "Checkbox meta box for product edit screen",
+    "Admin column display",
+    "Rewrite: /location/{slug}/"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Non-hierarchical taxonomy with checkbox UI. Shows 'Required' notice on product edit. Seeded from taxonomy-seed.json locations array."
+}
