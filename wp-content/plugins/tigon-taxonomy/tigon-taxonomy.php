@@ -70,6 +70,9 @@ function tigon_taxonomy_init() {
 
     // Enqueue front-end assets.
     add_action( 'wp_enqueue_scripts', 'tigon_taxonomy_enqueue_assets' );
+
+    // Load plugin templates for tigon_manufacturer CPT.
+    add_filter( 'template_include', 'tigon_taxonomy_template_include' );
 }
 add_action( 'plugins_loaded', 'tigon_taxonomy_init' );
 
@@ -99,6 +102,39 @@ function tigon_taxonomy_enqueue_assets() {
             true
         );
     }
+}
+
+/**
+ * Load plugin templates for the tigon_manufacturer CPT.
+ * Theme templates take priority; plugin provides fallback templates.
+ *
+ * @param string $template Current template path.
+ * @return string Modified template path.
+ */
+function tigon_taxonomy_template_include( $template ) {
+    if ( is_singular( 'tigon_manufacturer' ) ) {
+        $theme_template = locate_template( 'single-tigon_manufacturer.php' );
+        if ( $theme_template ) {
+            return $theme_template;
+        }
+        $plugin_template = TIGON_TAXONOMY_PLUGIN_DIR . 'templates/single-tigon_manufacturer.php';
+        if ( file_exists( $plugin_template ) ) {
+            return $plugin_template;
+        }
+    }
+
+    if ( is_post_type_archive( 'tigon_manufacturer' ) ) {
+        $theme_template = locate_template( 'archive-tigon_manufacturer.php' );
+        if ( $theme_template ) {
+            return $theme_template;
+        }
+        $plugin_template = TIGON_TAXONOMY_PLUGIN_DIR . 'templates/archive-tigon_manufacturer.php';
+        if ( file_exists( $plugin_template ) ) {
+            return $plugin_template;
+        }
+    }
+
+    return $template;
 }
 
 /**
