@@ -1,4 +1,100 @@
 /**
  * Tigon Taxonomy - Filter Widget Styles
- * Populated in Phase 10.
+ *
+ * @package Tigon_Taxonomy
  */
+
+/* Widget container */
+.tigon-filter-widget {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Manufacturer block */
+.tigon-filter-manufacturer {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.tigon-filter-manufacturer:last-child {
+    border-bottom: none;
+}
+
+/* Header row — flex layout for name + toggle */
+.tigon-filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+/* Manufacturer link */
+.tigon-manufacturer-link {
+    flex: 1;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.tigon-manufacturer-link:hover,
+.tigon-manufacturer-link.tigon-active {
+    color: #0073aa;
+}
+
+/* Toggle button */
+.tigon-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+    transition: color 0.2s ease;
+}
+
+.tigon-toggle:hover {
+    color: #0073aa;
+}
+
+.tigon-toggle:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 2px;
+}
+
+/* Model list */
+.tigon-filter-models {
+    list-style: none;
+    margin: 0 0 8px 0;
+    padding: 0 0 0 16px;
+}
+
+.tigon-filter-model {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.tigon-filter-model a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.tigon-filter-model a:hover,
+.tigon-filter-model a.tigon-active {
+    color: #0073aa;
+    font-weight: 600;
+}
+
+/* Product count badge */
+.tigon-count {
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Expanded state indicator */
+.tigon-filter-manufacturer.tigon-expanded > .tigon-filter-header .tigon-manufacturer-link {
+    color: #0073aa;
+}

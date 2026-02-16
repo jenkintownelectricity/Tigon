@@ -1,0 +1,24 @@
+{
+  "checkpoint": "010-filter-widget",
+  "phase": 10,
+  "description": "Filter Widget",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T17:48:00Z",
+  "items_created": [
+    "includes/class-tigon-widgets.php (full implementation)",
+    "assets/css/tigon-filters.css (full implementation)",
+    "assets/js/tigon-filters.js (full implementation)"
+  ],
+  "widget_features": [
+    "Accordion manufacturer/model filter for sidebar",
+    "Expandable manufacturer sections with nested model links",
+    "Product count display per manufacturer and model",
+    "Active state highlighting for current category",
+    "Auto-expand when viewing a manufacturer or model archive",
+    "Accessible toggle buttons with aria-expanded",
+    "jQuery-based slide animation",
+    "Admin widget form with title and show-counts options"
+  ],
+  "items_skipped": [],
+  "notes": "Widget registered via widgets_init hook. CSS/JS enqueued on shop, category, and product pages only."
+}
