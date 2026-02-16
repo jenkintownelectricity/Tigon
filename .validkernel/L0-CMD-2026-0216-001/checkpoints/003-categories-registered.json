@@ -1,0 +1,33 @@
+{
+  "checkpoint_id": "003-categories-registered",
+  "phase": 3,
+  "phase_name": "Category Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:10:00Z",
+  "items_created": [
+    "wp-content/plugins/tigon-taxonomy/data/taxonomy-seed.json",
+    "wp-content/plugins/tigon-taxonomy/includes/class-tigon-categories.php (fully implemented)"
+  ],
+  "categories_registered": {
+    "manufacturers": 13,
+    "models": 38,
+    "total_terms": 51
+  },
+  "manufacturer_list": [
+    "Evolution® (10 models)",
+    "ICON® (5 models)",
+    "EZ-GO® (6 models)",
+    "Club Car® (3 models)",
+    "Yamaha® (3 models)",
+    "DENAGO® EV (2 models)",
+    "Royal® EV (1 model)",
+    "Swift® EV (1 model)",
+    "EPIC® Carts (2 models)",
+    "STAR EV® (1 model)",
+    "Bintelli® (2 models)",
+    "Cushman® (1 model)",
+    "TIGON® (1 model)"
+  ],
+  "items_skipped": [],
+  "notes": "All manufacturers and models from Section 3.1 implemented. taxonomy-seed.json is the single source of truth. Activation is idempotent."
+}
