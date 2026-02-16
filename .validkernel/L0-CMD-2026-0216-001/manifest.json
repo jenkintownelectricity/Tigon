@@ -1,0 +1,18 @@
+{
+  "command_id": "L0-CMD-2026-0216-001",
+  "authority": "Armand Lefebvre — L0 GOVERNANCE (ROOT)",
+  "customer": "Tigon Golf Carts",
+  "issued": "2026-02-16",
+  "expiry": "2026-03-16",
+  "execution_mode": "GREEDY",
+  "repository": "https://github.com/jenkintownelectricity/Tigon.git",
+  "branch": "claude/tigon-golf-carts-updates-zOglU",
+  "total_phases": 12,
+  "plugin_path": "wp-content/plugins/tigon-taxonomy/",
+  "deliverables": [
+    "tigon-taxonomy plugin",
+    "taxonomy-seed.json",
+    ".validkernel progress tracking",
+    "README.md"
+  ]
+}
