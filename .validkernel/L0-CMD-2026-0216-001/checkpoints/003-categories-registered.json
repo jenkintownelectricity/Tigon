@@ -1,0 +1,17 @@
+{
+  "checkpoint": "003-categories-registered",
+  "phase": 3,
+  "description": "Category Registration",
+  "status": "COMPLETE",
+  "timestamp": "2026-02-16T20:05:00Z",
+  "session_id": "claude/tigon-golf-carts-updates-QDQyn",
+  "items_created": [
+    "data/taxonomy-seed.json — full seed data with 13 manufacturers, 47 models",
+    "includes/class-tigon-categories.php — category seeding from JSON",
+    "Manufacturers: Evolution, ICON, EZ-GO, Club Car, Yamaha, DENAGO, Royal EV, Swift EV, EPIC, STAR EV, Bintelli, Cushman, TIGON",
+    "Models: 10 Evolution, 5 ICON, 6 EZ-GO, 3 Club Car, 3 Yamaha, 2 DENAGO, 1 Royal EV, 1 Swift EV, 2 EPIC, 1 STAR EV, 2 Bintelli, 1 Cushman, 1 TIGON"
+  ],
+  "items_skipped": [],
+  "items_blocked": [],
+  "notes": "Idempotent seeding — checks for existing terms before creating. taxonomy-seed.json is the single source of truth per IV.01."
+}
